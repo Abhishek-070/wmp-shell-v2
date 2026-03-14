@@ -1,4 +1,4 @@
-import common.sh
+source common.sh
 
 echo -e "${YC} Install Nginx ${NC}"
 dnf module disable nginx -y &>>$OUTPUT

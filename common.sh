@@ -9,11 +9,11 @@ app_prereq(){
   tar xzf /tmp/${service_name}.tar.gz
 }
 
-YC= "\e[33m"
-RC= "\e[31m"
-GC= "\e[32m"
-NC= "\e[0m"
-OUTPUT =/tmp/wmp.log
+YC="\e[33m"
+RC="\e[31m"
+GC="\e[32m"
+NC="\e[0m"
+OUTPUT=/tmp/wmp.log
 rm -f $OUTPUT
 
 status_check(){

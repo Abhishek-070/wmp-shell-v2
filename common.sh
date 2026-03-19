@@ -16,8 +16,8 @@ NC="\e[0m"
 OUTPUT=/tmp/wmp.log
 rm -f $OUTPUT
 
-status_check(){
-  if [ $? -eq 0]; then
+status_check() {
+  if [$? -eq 0]; then
     echo -e "${GC} SUCCESS ${NC}"
   else
     echo -e "${RC} FAILURE ${NC}"
